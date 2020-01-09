@@ -402,6 +402,41 @@
 	}
 	```
 
+	`submit_time` accounting period is closed or not setup. 
+	```javascript
+	__invalid: {
+		"id": "Accounting Period closed or not setup for [submit_time]."
+	}
+	```
+
+	`acct_code` is invalid or closed. 
+	```javascript
+	__invalid: {
+		"id": "GL Account #args.acct_code# is invalid or is closed."
+	}
+	```
+
+	`par_code` is invalid.
+	```javascript
+	__invalid: {
+		"id": "Enrolment Parent Code [par_code] is invalid."
+	}
+	```
+
+	`stud_code` is invalid.
+	```javascript
+	__invalid: {
+		"id": "Enrolment Student Code [stud_code] is invalid."
+	}
+	```
+
+	`par_code` and `stud_code` do not match.
+	```javascript
+	__invalid: {
+		"id": "Enrolment Student Code is not valid for this Enrolment Parent Code."
+	}
+	```
+
 * **Sample Parameters:**
 
 	```javascript
